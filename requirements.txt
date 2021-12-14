@@ -3,4 +3,5 @@ chatterbot-corpus
 jsonlines
 SQLAlchemy
 sqlparse
+spacy
 streamlit
