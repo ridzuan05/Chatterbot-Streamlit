@@ -8,8 +8,10 @@ def get_text():
     input_text = st.text_input("You: ","So, what's in your mind")
     return input_text 
 
-#data = json.loads(open(r'C:\Users\Jojo\Desktop\projects\chatbot\chatbot\chatbot\data_tolokers.json','r').read())#change path accordingly
-#data2 = json.loads(open(r'C:\Users\Jojo\Desktop\projects\chatbot\chatbot\chatbot\sw.json','r').read())#change path accordingly
+#data = json.loads(open(r'C:\Users\Jojo\Desktop\projects\chatbot\chatbot\chatbot\data_tolokers.json','r').read())
+#data2 = json.loads(open(r'C:\Users\Jojo\Desktop\projects\chatbot\chatbot\chatbot\sw.json','r').read())
+data = json.loads(open('data_tolokers.json','r').read())
+data2 = json.loads(open('sw.json','r').read())
 
 tra = []
 for k, row in enumerate(data):
